@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+h1,h2,h3{
+    font-family: 'Livvic', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position:center;
+    width: 100vw;
+    height: 100vh;
+}
+    
+
+h1{
+    color: lime;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.logo{
+    width: 300px;
+    position: relative;
+    left: 40%;
+    margin-top: 10px;
+}
+
+
+.box{
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+    width:1600px;
+    height: 1300px;
+    margin: auto;
+    margin-top: 250px;
+}
+
+
+header{
+    padding-top:50px;
+}
+
+
+nav{
+    margin: auto;
+    width: 1400px;
+    background-color: lime;
+    padding: 10px;
+    text-align: center;
+}
+
+
+button{
+    padding: 7px;
+    margin: 4px;
+}
+
+
+h3{
+color: white;
+font-size: 30px;
+margin-bottom: 10px;
+}
+
+
+h2{
+    display: inline-block;
+}
+
+
+.mono{
+    padding: 55px 0 0 100px; 
+    color: white;
+    font-size: 30px;
+}
+   
+
+.carica.uno{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(212, 165, 79);
+    border-radius: 10px;
+}
+
+
+.carica.due{
+    width: 900px;
+    height: 50px;
+    background-color: rgb(49, 177, 49);
+    border-radius: 10px;
+}
+
+
+.carica.tre{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(179, 44, 44);
+    border-radius: 10px;
+}
